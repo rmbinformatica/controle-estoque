@@ -116,9 +116,7 @@ elseif ($f_acao =="confirmar_exclusao") {
    }
 }
 else {
-   echo "<PRE>";
-   print_r($_POST);
-   echo "</PRE>";
+   msg_alerta("Falha na requisi&ccedit;&atilde;o:");
 }
 
 require_once("footer-bar.php");
