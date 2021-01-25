@@ -1,0 +1,35 @@
+{
+    	
+        "dom": "Bfrtip",
+        "language": {
+            "url": "dataTable/pt-br.json"
+        },
+        "pageLength": 100,
+        "lengthMenu": [
+            [ 25, 50, 100, 200, -1 ],
+            [ "25", "50", "100", "200", "Tudo" ]
+           
+        ],
+        "buttons": [
+            {
+                "extend": "excelHtml5",
+                "exportOptions": {
+                    "columns": ":not(:last-child)"
+                }
+            },
+            {
+                "extend": "pdfHtml5",
+                "exportOptions": {
+                    "columns": ":not(:last-child)"
+                }
+            },
+            {
+                "extend": "colvis",
+                "text": "Colunas"
+            },
+            {
+                "extend": "pageLength",
+                "text": " # "
+            }
+        ]
+    }
