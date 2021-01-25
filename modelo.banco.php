@@ -11,5 +11,5 @@ define('USUARIO','usuario_mysql');
 define('SENHA','senha_mysql');
 define('BANCO','nome_bancodados');
 define('NOW',date("Y-m-d H:i:s"));
-
+define('HOJE',date("Y-m-d"));
 ?>
